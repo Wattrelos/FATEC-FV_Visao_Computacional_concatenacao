@@ -62,11 +62,13 @@ Redimensionar uma imagem sem considerar a proporção original gera distorções
 $$\text{Aspect Ratio } (AR) = \frac{W_{\text{original}}}{H_{\text{original}}}$$
 
 - **Para igualar a altura ($H_{\text{alvo}}$)**:
-  $$\text{Fator de Escala } s = \frac{H_{\text{alvo}}}{H_{\text{original}}}$$dir
+  $$\text{Fator de Escala } s = \frac{H_{\text{alvo}}}{H_{\text{original}}}$$
+  
   $$W_{\text{novo}} = \text{round}(W_{\text{original}} \times s)$$
 
 - **Para igualar a largura ($W_{\text{alvo}}$)**:
   $$\text{Fator de Escala } s = \frac{W_{\text{alvo}}}{W_{\text{original}}}$$
+  
   $$H_{\text{novo}} = \text{round}(H_{\text{original}} \times s)$$
 
 ### 5. `cv2.hconcat` vs `np.hstack`
