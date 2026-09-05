@@ -15,8 +15,8 @@ __pycache__/
 *.sublime-workspace
 
 # Arquivos de saída gerados pela aplicação
-resultado_*.jpg
-resultado_*.png
+# resultado_*.jpg
+# resultado_*.png
 
 # Arquivos de sistema operacional
 .DS_Store
