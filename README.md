@@ -20,7 +20,14 @@ O objetivo deste projeto é demonstrar as técnicas fundamentais de manipulaçã
 ### Resultado: Concatenação Horizontal
 A Imagem 1 é redimensionada proporcionalmente para a altura da Imagem 2 ($1024\text{ px}$), resultando em uma imagem combinada de $2395 \times 1024\text{ px}$:
 
-![Resultado Concatenação Horizontal](assets/resultado_concatenado.jpg)
+![Resultado Concatenação Horizontal](/assets/resultado_concatenado.jpg)
+
+---
+
+### Resultado: Concatenação Vertical
+A Imagem 1 é redimensionada proporcionalmente para a largura da Imagem 2 ($1024\text{ px}$), resultando em uma imagem combinada de $2395 \times 1024\text{ px}$:
+
+![Resultado Concatenação Vertical](/assets/resultado_vertical.jpg)
 
 ---
 
@@ -55,7 +62,7 @@ Redimensionar uma imagem sem considerar a proporção original gera distorções
 $$\text{Aspect Ratio } (AR) = \frac{W_{\text{original}}}{H_{\text{original}}}$$
 
 - **Para igualar a altura ($H_{\text{alvo}}$)**:
-  $$\text{Fator de Escala } s = \frac{H_{\text{alvo}}}{H_{\text{original}}}$$
+  $$\text{Fator de Escala } s = \frac{H_{\text{alvo}}}{H_{\text{original}}}$$dir
   $$W_{\text{novo}} = \text{round}(W_{\text{original}} \times s)$$
 
 - **Para igualar a largura ($W_{\text{alvo}}$)**:
