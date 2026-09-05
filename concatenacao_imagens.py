@@ -293,11 +293,14 @@ def main():
 
     while True:
         if modo_atual == "horizontal":
+            # Desenha o rodape informativo na imagem horizontal
             tela = desenhar_rodape_informativo(resultado_horizontal, "horizontal")
         else:
+            # Desenha o rodape informativo na imagem vertical
             tela = desenhar_rodape_informativo(resultado_vertical, "vertical")
 
         cv2.imshow(NOME_JANELA, tela)
+        # Aguarda por 50ms por uma tecla e filtra apenas os 8 bits inferiores (ASCII) para evitar problemas com caracteres estendidos e teclas especiais.
         tecla = cv2.waitKey(50) & 0xFF
 
         # Sair: 'q', 'Q' ou tecla ESC (27)
@@ -321,6 +324,7 @@ def main():
             cv2.imwrite(nome_arquivo, img_salvar)
             print(f"[+] Imagem ({modo_atual}) salva com sucesso em: '{nome_arquivo}'")
 
+    # Fecha todas as janelas do OpenCV, liberando memória e recursos do sistema operacional
     cv2.destroyAllWindows()
 
 
