@@ -15,8 +15,6 @@ __pycache__/
 *.sublime-workspace
 
 # Arquivos de saída gerados pela aplicação
-assets/resultado_*.jpg
-assets/resultado_*.png
 resultado_*.jpg
 resultado_*.png
 

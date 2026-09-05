@@ -20,14 +20,14 @@ O objetivo deste projeto é demonstrar as técnicas fundamentais de manipulaçã
 ### Resultado: Concatenação Horizontal
 A Imagem 1 é redimensionada proporcionalmente para a altura da Imagem 2 ($1024\text{ px}$), resultando em uma imagem combinada de $2395 \times 1024\text{ px}$:
 
-![Resultado Concatenação Horizontal](/assets/resultado_concatenado.jpg)
+![Resultado Concatenação Horizontal](assets/resultado_concatenado.jpg)
 
 ---
 
 ### Resultado: Concatenação Vertical
 A Imagem 1 é redimensionada proporcionalmente para a largura da Imagem 2 ($1024\text{ px}$), resultando em uma imagem combinada de $2395 \times 1024\text{ px}$:
 
-![Resultado Concatenação Vertical](/assets/resultado_vertical.jpg)
+![Resultado Concatenação Vertical](assets/resultado_vertical.jpg)
 
 ---
 
